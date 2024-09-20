@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box !important;
+}
+
+.slide-container {
+  height: 40%;
+}
+.slide-container div {
+  height: 100% !important;
+}
+
+.project-desc::-webkit-scrollbar {
+  width: 0px;
+}
+
+.project-desc::-webkit-scrollbar-thumb:hover {
+  background: #244d419e;
+}
+
+.project-desc:hover::-webkit-scrollbar {
+  width: 4px;
+}
+
+.project-desc:hover::-webkit-scrollbar-track {
+  background: #0f292200;
+}
+.project-desc:hover::-webkit-scrollbar-thumb {
+  background: #1b44399e;
+  border-radius: 30px;
+}
+.project-desc:hover::-webkit-scrollbar-thumb:hover {
+  background: #244d419e;
+}
+.first {
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+}
+
+.second {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.8),
+    #c0c0c0
+  );
+}
+
+.third {
+  background: linear-gradient(to right, #c85b2f, #9b401e);
+}
+
+.edit-project-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
